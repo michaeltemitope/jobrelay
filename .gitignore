@@ -1,0 +1,36 @@
+# Local secrets; retain the placeholder template.
+.env
+.env.*
+!.env.example
+
+# TypeScript dependencies and output.
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python environments and generated files.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Local tooling and operating-system files.
+.cache/
+.DS_Store
+Thumbs.db
+
+# Terraform local state and downloaded providers.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
